@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget_Exibir">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>571</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Chiller</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>id_aluno</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Chiller</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>nome_aluno</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Chiller</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>senha_aluno</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Chiller</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>curso</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Chiller</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>excluir</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Chiller</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_id">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255); color: rgb(255, 0, 0)</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_curso">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>250</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255); color: rgb(255, 0, 0)</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_nome">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>421</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255); color: rgb(255, 0, 0)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_filtrar">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>172</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Chiller</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>FILTRAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_Cadastro_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>381</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Chiller</family>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ALUNOS CADASTRADOS</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_id">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="plainText">
+    <string>ID:</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_nome">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="plainText">
+    <string>NOME:</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_curso">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>210</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="plainText">
+    <string>CURSO:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
